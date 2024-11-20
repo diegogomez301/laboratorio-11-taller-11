@@ -1,0 +1,12 @@
+
+
+import matplotlib.pyplot as plt
+
+sitios = ['Sitio A', 'Sitio B', 'Sitio C', 'Sitio D', 'Sitio E']
+tiempos = [1.2, 2.5, 0.9, 3.0, 1.8]
+
+plt.bar(sitios, tiempos)
+plt.xlabel('Sitios Web')
+plt.ylabel('Tiempo de Carga (segundos)')
+plt.title('Comparación del tiempo de carga de diferentes sitios web')
+plt.show()
