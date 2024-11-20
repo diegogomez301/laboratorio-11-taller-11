@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt  
+
+# Datos  
+asignaturas = ["Matemáticas", "Ciencias", "Historia", "Inglés", "Arte"]  
+calificaciones = [85, 90, 78, 88, 92]  
+
+# Crear el gráfico  
+plt.figure(figsize=(8, 5))  
+plt.bar(asignaturas, calificaciones, color='skyblue')  
+plt.title("Comparación de Calificaciones por Asignatura", fontsize=14)  
+plt.xlabel("Asignaturas", fontsize=12)  
+plt.ylabel("Calificaciones Promedio", fontsize=12)  
+plt.ylim(0, 100)  
+plt.grid(axis="y", linestyle="--", alpha=0.7)  
+plt.show() 
